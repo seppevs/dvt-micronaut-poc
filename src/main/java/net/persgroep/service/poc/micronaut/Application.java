@@ -8,6 +8,3 @@ public class Application {
         Micronaut.run(Application.class, args);
     }
 }
-
-
-// See https://guides.micronaut.io/mn-application-aws-lambda-java11/guide/index.html

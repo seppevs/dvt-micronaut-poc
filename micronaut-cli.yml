@@ -1,12 +1,6 @@
 applicationType: default
-defaultPackage: hello.world
+defaultPackage: example.micronaut
 testFramework: junit
 sourceLanguage: java
 buildTool: maven
-features: [app-name, http-client, java, java-application, junit, logback, maven, netty-server, readme, shade, yaml]
-micronaut:
-  views:
-    soy:
-      enabled: false
-
-
+features: [app-name, aws-lambda, java, java-application, junit, logback, maven, readme, shade, yaml]
