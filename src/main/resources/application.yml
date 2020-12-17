@@ -1,3 +1,6 @@
 micronaut:
   application:
-    name: complete
+    name: micronaut
+  views:
+    soy:
+      enabled: false
